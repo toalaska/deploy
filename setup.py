@@ -19,6 +19,6 @@ setup(name="deploy",  # 项目名
       author_email="toalaska@126.com",  # 邮箱
       url="https://github.com/toalaska/deploy",  # 地址
       download_url="https://github.com/toalaska/deploy/archive/master.zip",
-      packages=find_packages(),
+      packages=['deploy'],
       keywords=["deploy", "oss","ssh"],
       zip_safe=True)
