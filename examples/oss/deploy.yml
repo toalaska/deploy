@@ -1,3 +1,8 @@
 type: oss
 oss:
   key:
+  sec:
+  region:
+task:
+  - src: /tmp
+  - dst: test:/tmp
